@@ -1,0 +1,13 @@
+header{
+    background-color: #1388f5;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
+    height: 100%;
+  }
+  
+  header h1{
+    height: 100%;
+    font-size: auto;
+  }
+  
