@@ -1,7 +1,6 @@
 import React from "react";
 import "./cssfiles/card.css";
 
-
 function Card(props){
     return (
         <div className="card">

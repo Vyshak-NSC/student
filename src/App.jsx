@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "./components/Header";
 import Nav from "./components/Nav"
 import Card from "./components/Card";
+import Header from "./components/Header";
 
 function App() {
   return (
