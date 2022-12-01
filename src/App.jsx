@@ -1,15 +1,17 @@
 import React from "react";
 import Header from "./components/Header";
 import Nav from "./components/Nav"
-import Attendance from "./components/Attendance";
-
+import Card from "./components/Card";
 
 function App() {
   return (
     <div>
       <Header />
       <Nav />
-      <Attendance />
+      <div className="container">
+        <Card title="Attendance" />
+        <Card title="Groups" />
+      </div>
     </div>
   );
 }

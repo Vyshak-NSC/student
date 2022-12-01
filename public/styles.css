@@ -1,6 +1,6 @@
 * {
-  padding: 0;
   margin: 0;
+  color: #ddd;
   box-sizing: border-box;
 }
 html {
@@ -10,24 +10,7 @@ body {
   background: #eee;
   padding: 0 16px;
 }
-  
-.card {
-  margin: 10px;
-  transition: .3s;
-  border-radius: 4px;
-  min-height: 30vh;
-  background-color: #1388f5;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  text-align: center;
-}
-
-.card h1 {
-  height: 100%;
-  padding: 0 0;
-  vertical-align: bottom;
-  text-align: center;
-}
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  transform:  scale(1.01);
-}
+/* 
+.container {
+  padding: 10px;
+} */
