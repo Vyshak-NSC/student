@@ -6,11 +6,15 @@ import Header from "./components/Header";
 function App() {
   return (
     <div>
-      <Header />
-      <Nav />
+      <div>
+        <Header />
+        <Nav />
+      </div>
       <div className="container">
         <Card title="Attendance" />
         <Card title="Groups" />
+        <Card />
+        <Card />
       </div>
     </div>
   );
