@@ -1,20 +1,15 @@
 import React from "react";
-import Nav from "./components/Nav"
 import Card from "./components/Card";
 import Header from "./components/Header";
+import { Link } from "react-router-dom";
 
-const MainPage =() => {
+const MainPage = () => {
   return (
     <div>
-      <div>
-        <Header />
-        <Nav />
-      </div>
-      <div className="container">
-        <Card title="Attendance" />
-        <Card title="Groups" />
-        <Card />
-        <Card />
+      <Header />
+      <div > {/*className="container"> */}
+        <Link to="/second"><Card class="selection-title" title="Attendance" /></Link>
+        <Card class="selection-title" title="Groups" />
       </div>
     </div>
   );

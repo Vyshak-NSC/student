@@ -1,11 +1,15 @@
 import React from "react";
 import "./cssfiles/head.css";
+import Nav from "./Nav";
 
 function Header() {
   return (
-    <header>
-      <h1>Attendance Manager</h1>
-    </header>
+    <div>
+      <header>
+        <h1>Attendance Manager</h1>
+      </header>
+      <Nav />
+    </div>
   );
 }
 

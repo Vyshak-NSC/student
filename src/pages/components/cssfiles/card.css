@@ -1,18 +1,23 @@
 .card {
-    position: relative;
-    margin-top: 25px;
     transition: .3s;
+    min-height: 32vh;
+    position: relative;
     border-radius: 4px;
-    min-height: 30vh;
-    background-color: #47a6ff;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
- }
-  
-.title {
-    padding: 70px 0;
     text-align: center;
+    background-color: #62a7e9;/*#62a7e9;*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+
+.selection-title{
+    padding: 250px 0;
+    font-size: 5.5em;
+}
+
+.title {
+    font-size: 5.5em;
+}
+
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    transform:  scale(1.01);
+    transform: scale(1.01);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }

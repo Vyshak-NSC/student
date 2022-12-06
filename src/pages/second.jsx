@@ -1,9 +1,15 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import Header from "./components/Header";// 
 
-const Second = () =>{
-    return(
-        <h2>Hello</h2>
+import Card from "./components/Card";
+
+const Second = () => {
+    return (
+        <div>
+            <Header />
+            <Card />
+            <Card />
+        </div>
     );
 };
 
