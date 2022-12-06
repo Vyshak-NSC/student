@@ -8,7 +8,7 @@ const MainPage = () => {
     <div>
       <Header />
       <div > {/*className="container"> */}
-        <Link to="/second"><Card class="selection-title" title="Attendance" /></Link>
+        <Link to="/semesters"><Card class="selection-title" title="Semesters" /></Link>
         <Card class="selection-title" title="Groups" />
       </div>
     </div>

@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./components/Header";// 
 import Card from "./components/Card";
 
-const Second = () => {
+const Semester = () => {
     return (
         <div>
             <Header />
@@ -18,4 +18,4 @@ const Second = () => {
     );
 };
 
-export default Second;
+export default Semester;
