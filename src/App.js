@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import { BrowserRouter as Router, Route,} from "react-router-dom";// Switch, Link, Redirect 
-import MainPage from "./pages/index.jsx";
+import MainPage from "./pages/MainPage.jsx";
 import Second from "./second.jsx";
 
 class App extends Component{
