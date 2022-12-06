@@ -1,17 +1,19 @@
-import React, {Component} from "react";
-import { BrowserRouter as Router, Route,} from "react-router-dom";// Switch, Link, Redirect 
+import React, { Component } from "react";
+import { BrowserRouter, Route, Routes} from "react-router-dom";// Switch, Link, Redirect 
 import MainPage from "./pages/MainPage.jsx";
-import Second from "./second.jsx";
+import Second from "./pages/second";
 
-class App extends Component{
-    render(){
+class App extends Component {
+    render() {
         return (
-            <Router>
-                <Route exact path="/" component={ MainPage } />
-                <Route exact path="/second" component={Second} />
-            </Router>
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={ <MainPage />} />
+                    <Route path="/second" exact element={ <Second /> } />
+                </Routes>
+            </BrowserRouter>
         );
     }
-}
+};
 
 export default App;
