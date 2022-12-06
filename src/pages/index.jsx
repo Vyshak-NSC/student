@@ -1,9 +1,9 @@
 import React from "react";
-import Nav from "../components/Nav"
-import Card from "../components/Card";
-import Header from "../components/Header";
+import Nav from "./components/Nav"
+import Card from "./components/Card";
+import Header from "./components/Header";
 
-function MainPage() {
+const MainPage =() => {
   return (
     <div>
       <div>
@@ -18,6 +18,6 @@ function MainPage() {
       </div>
     </div>
   );
-}
+};
 
 export default MainPage;
