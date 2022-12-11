@@ -1,19 +1,20 @@
 import React from "react";
-import Header from "./components/Header";// 
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 import Card from "./components/Card";
+import {useNavigate} from "react-router-dom";
+import { Link } from "react-router-dom";
 
+let lst = [1,2,3,4,5,6,7,8]
 const Semester = () => {
+    const navigate = useNavigate();
     return (
         <div>
             <Header />
-            <Card class="selection-title" title="Semester 1" />
-            <Card class="selection-title" title="Semester 2" />
-            <Card class="selection-title" title="Semester 3" />
-            <Card class="selection-title" title="Semester 4" />
-            <Card class="selection-title" title="Semester 5" />
-            <Card class="selection-title" title="Semester 6" />
-            <Card class="selection-title" title="Semester 7" />
-            <Card class="selection-title" title="Semester 8" />
+                    {lst.map((val, key) =>
+                        <Link to="/branches"><Card class="selection-title" title={"Semester " + val} onClick={(navigate("/branches"))} /></Link>
+                    )}
+            <Footer />
         </div>
     );
 };
