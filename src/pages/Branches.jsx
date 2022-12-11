@@ -19,7 +19,7 @@ const gotoBranch = (dept) => {
 
 const Branches = () => {
     const navigate = useNavigate();
-    return (c
+    return (
         <div>
             <Header />
             {sems.map((val, key) =>
