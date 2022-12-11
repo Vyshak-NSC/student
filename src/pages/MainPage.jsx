@@ -9,8 +9,8 @@ const MainPage = () => {
     <div>
       <Header />
 
-        <Link to="/semesters"><Card class="selection-title" title="Semesters" /></Link>
-        <Link to="/branches"><Card class="selection-title" title="Groups" /></Link>
+        <Link to="/semesters"><Card cls="selection-title" title="Semesters" /></Link>
+        <Link to="/"><Card cls="selection-title" title="Groups" /></Link>
 
       <Footer />
     </div>

@@ -12,7 +12,7 @@ const Semester = () => {
         <div>
             <Header />
                     {lst.map((val, key) =>
-                        <Link to="/branches"><Card class="selection-title" title={"Semester " + val} onClick={(navigate("/branches"))} /></Link>
+                        <Link to="/branches"><Card cls="selection-title" title={"Semester " + val} onClick={(navigate("/branches"))} /></Link>
                     )}
             <Footer />
         </div>

@@ -2,20 +2,28 @@ import React from "react";
 import Header from "./components/Header";// 
 import Card from "./components/Card";
 import Footer from "./components/Footer";
+import { useNavigate, Link} from "react-router-dom";
+// import Class from "./Class";
 
-// let sems = ["Computer Science Engineering",
-//             "Electrical and Electronic Engineering",
-//             "Electronics and Communication Enginering",
-//             "Mechanical Engineering","Civil Engineering"];
 
-const sems = ["CSE","ECE","EEE","ME","CE"];
+const sems = ["CSE", "ECE", "EEE", "ME", "CE"];
+
+const gotoBranch = (dept) => {
+    if (dept === "CE") {
+        return "/class";
+    }
+    else if(dept === "Cse"){
+        return "/"
+    }
+}
 
 const Branches = () => {
-    return (
+    const navigate = useNavigate();
+    return (c
         <div>
             <Header />
-            {sems.map((val,key) =>
-                <Card class="selection-title" title={val} />
+            {sems.map((val, key) =>
+                <Link to={navigate( gotoBranch (val) ) }><Card cls="selection-title" title={val} /></Link>
             )}
             <Footer />
         </div>

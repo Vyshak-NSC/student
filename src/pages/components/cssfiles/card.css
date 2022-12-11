@@ -1,4 +1,4 @@
-.card , .selection-title{
+.card , .selection-title, .mini-card{
     font-size: 2.5em;
     transition: .3s;
     height: 32vh;
@@ -11,6 +11,10 @@
 
 .selection-title{
     padding: 250px 0;
+}
+
+.mini-card{
+    max-height: 10vh;
 }
 
 .title {
