@@ -1,0 +1,18 @@
+header, footer {
+  background-color: #62a7e9; /*#47a6ff;*/
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
+  height: 100%;
+}
+
+footer {
+  background-color: #eee;
+  height:60px
+}
+
+header h1 {
+  height: 100%;
+  font-size: auto;
+  font-size: 5.5em
+}
